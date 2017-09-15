@@ -112,7 +112,7 @@ h5, .h05, h6, .h06 {
 }
 
 h1, .h01 {
-  font-size: 100px;
+  font-size: 60px;
   line-height: 1.35;
   letter-spacing: -.1rem;
 }
@@ -492,17 +492,23 @@ td:last-child {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #0F1215;
+  background: #01020a;
   z-index: 800;
   height: 100%;
   width: 100%;
+
+background-image: url(../images/giphy1.gif);
+background-position: center;
+background-repeat: no-repeat;
+
+
 }
 
 .no-js #preloader, .oldie #preloader {
   display: none;
 }
 
-#loader {
+/*#loader {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -515,7 +521,7 @@ td:last-child {
   border-radius: 100%;
   -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
   animation: sk-scaleout 1.0s infinite ease-in-out;
-}
+}*/
 
 @-webkit-keyframes sk-scaleout {
   0% {
@@ -711,6 +717,11 @@ select:-webkit-autofill:focus {
  *  06. buttons - (_button-essentials.scss)
  *
  * ------------------------------------------------------------------- */
+.followbuttons
+{
+color: ##f9a828;  
+}
+
 .button,
 a.button,
 button,
@@ -801,6 +812,7 @@ button.stroke, .button.stroke {
   background: transparent !important;
   border: 3px solid #313131;
   line-height: 4.8rem;
+  width: 250px
 }
 
 button.stroke.medium, .button.stroke.medium {
@@ -1135,7 +1147,7 @@ input::-moz-focus-inner {
   margin-bottom: 1.5rem;
 }
 .section-intro h1 {
-  font-family: "librebaskerville-bold", serif;
+  /*font-family: "librebaskerville-bold", serif;*/
   font-size: 4.8rem;
   line-height: 1.375;
   color: #151515;
