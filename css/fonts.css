@@ -55,7 +55,7 @@
     url("../fonts/fontsdwn/WildZovaFree.woff") format("woff"), /* Modern Browsers */
     url("../fonts/fontsdwn/WildZovaFree.woff2") format("woff2"); /* Modern Browsers */
   /*font-weight: normal;*/
-  font-weight: 300;
+  font-weight: 50;
   font-style: normal;
 }
 
